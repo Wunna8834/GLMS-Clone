@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Open+Sans&display=swap');
+
+:root {
+    --primary-color: #015486;
+    --font: 'Open Sans', sans-serif; 
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primary-color)
+}
+.logo {
+    background-color: #fff;
+    width: 40vw;
+    height: 100vh;
+    
+}
+.logo img {
+    height: 570px;
+    width: 582px;
+}
+.container {
+    display: flex;
+}
+.form {
+    width: 60vw;
+    padding-left: 1.5rem;
+}
+.form h2{
+    text-align: center;
+    color: #fff;
+    font-size: 1.8em;
+}
+.form p {
+    color: #fff;
+    font-size: 1em;
+    margin-top: 3rem;
+    font-weight: 500;
+}
+.form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.blank {
+    height: 1rem;
+}
+.form-container {
+   /* margin: 15% 20%; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 10%;
+}
+.form-input {
+    margin: 0 auto;
+}
+.form-input input {
+    width: 25vw;
+    height: 2rem;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+}
+.form-input label {
+    color: #fff;
+}
+.remember {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.fg-pwd {
+    color: #8E8E8E;
+}
+.link {
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+}
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 25vw;
+}
+.btn {
+    background-color: #3698d4;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 10vw;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+.btn:hover {
+    background-color: #2c88c1;
+    transition: 0.5s;
+    color: rgb(79, 79, 79);
+}
+
